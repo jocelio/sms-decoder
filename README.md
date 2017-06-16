@@ -1,32 +1,17 @@
 # sms-decoder
 
-FIXME: description
+A Clojure Solution for this problem:
+http://fastsolucoes.com.br/blog/wp-content/uploads/2013/06/fast-prog-remoto-sms.pdf
 
-## Installation
 
-Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
-
     $ java -jar sms-decoder-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
 
 ## Examples
 
 ...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
