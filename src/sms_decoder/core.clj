@@ -15,5 +15,6 @@
                 (map #(+ (gfl (to-int (first %))) (dec (to-int (second %))))
                    (map #(vector (first %) (count %))
                           (filter #(and (not (.contains % " ")) (not (nil? (re-matches #"[^1]+" %))))
-                            (.split msg "(?<=(.))(?!\\1)")
-                          ))))))
+                            (.split msg "(?<=(.))(?!\\1)")))))))
+
+ 
