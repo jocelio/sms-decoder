@@ -11,6 +11,7 @@ http://fastsolucoes.com.br/blog/wp-content/uploads/2013/06/fast-prog-remoto-sms.
 
 ## Examples
 
+```
 (deftest parse-test
   (testing "Parse sms keypush code"
     (is (= (parse "333277778") "FAST"))
@@ -20,6 +21,7 @@ http://fastsolucoes.com.br/blog/wp-content/uploads/2013/06/fast-prog-remoto-sms.
     (is (= (parse "0123456789") " ADGJMPTW"))
     (is (= (parse "") ""))))
 
+```
 ## License
 
 Copyright © 2017 FIXME
