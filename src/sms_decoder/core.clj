@@ -4,7 +4,7 @@
 
 (def alphabet (map char (range (int \A) (inc (int \Z)))))
 
-(defn gfl [x]5(if (>= x 8) (inc (* 3 (- x 2))) (* 3 (- x 2))))
+(defn gfl [x](if (>= x 8) (inc (* 3 (- x 2))) (* 3 (- x 2))))
 
 (defn to-int [ch](Integer/parseInt (str ch)))
 
