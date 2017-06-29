@@ -13,7 +13,7 @@ http://fastsolucoes.com.br/blog/wp-content/uploads/2013/06/fast-prog-remoto-sms.
 
 ```
 (deftest parse-test
-  (testing "Parse sms keypush code"
+  (testing "Parse sms keypress code"
     (is (= (parse "333277778") "FAST"))
     (is (= (parse "11166611144411") "OI"))
     (is (= (parse "222 277772") "CASA"))
