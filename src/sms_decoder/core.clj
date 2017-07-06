@@ -9,7 +9,6 @@
 (defn to-int [ch](Integer/parseInt (str ch)))
 
 (defn parse [msg]
-  "This function receives a string that represents the pushed keys and parse it to a message"
   (str/join
       (map #(if (>= % 0) (nth alphabet %) " ")
                 (map #(+ (gfl (to-int (first %))) (dec (to-int (second %))))
